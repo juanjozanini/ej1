@@ -1,0 +1,80 @@
+<?DOCTYPE html>
+<html lang="es-es">
+<head>
+<meta charset="UTG-8">
+<title>Taller Desarrollo WEB UNSE</title>
+
+<!-- Tres formas de agregar estilos primero embebido en el head 
+<style>
+body{
+
+    background-color: red;
+}
+-->
+</style>
+<!-- El tercero creando archivo css (pasa por arriba el codigo embebido anteriormente) -->
+<link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+</head>
+<body>
+
+    <header>
+        <!-- El segundo es agregarla en la etiqueta directamente con style (pasa sobre la hoja de estilos-->
+                <ul>
+                        <li><a href="index.html"  class="btn btn-primary" target="self">INICIO</a></li>
+                        <li><a href="mailto:juanjozanini@gmail.com"  class="btn btn-primary">CONTACTOS</a></li>
+                    </ul>
+    </header>
+<div class="Principal col-xs-12">
+    <div id="bloque-izquierdo" class="col-xs-12 col-sm-4">
+        <img src="imagen.png" alt="usuario" >
+        <h3 id="misdatos">Datos Personales</h3>
+        <ul class="lista1">
+            <li>Nombre y Apeliido: Juan Jose Paz Zanini</li>
+            <li>Direccion: Republica el Libano 2772 DEPTO 201</li>
+            <li>Fecha de Naciemiento: 27 de Junio de 1989</li>
+        </ul>
+    </div><!--hace una divicion -->
+    <div id="Bloque-derecho" class="col-xs-12 col-sm-8">
+
+            <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h1 class="panel-title" style="font-size:35px;" >Presentacion</h1>
+                    </div>
+                    <div class="panel-body">
+
+                                        <!--<h1>Informacion Personal</h1>-->
+                                        <p>Me llamo Juan Jose, soy del interior de la provincia de Santiago del Estero, oriundo de la ciudad de Beltran. Me gustan los animales, programar y dormir la siesta.</p>
+                                            <!-- hr sirve para hacer una linea de divicion -->
+                                        <hr>
+                                        <h3>Formacion Academica</h3>
+                                        <ul class="lista2">
+                                            <li>Estudios Secundarios</li>
+                                            2003-2006: Escuela Nacional de Educacion Tecnica Nro 1
+                                            <li>Estudios Universitarios</li>
+                                            2007 - Actualidad: Universidad Naciona de Santiago del Estero
+                                        </ul> 
+                                        <hr>
+                                        <h3>Aptitudes</h3>
+                                        <p>Responsable, buen compañero, buena presencia, proactivo, amplios conocimientos tecnicos, puntual.</p>
+                                        
+
+
+
+               </div>
+            </div>
+        </div>
+
+</div>
+   
+
+<footer class="col-xs-12">
+    <p class="pepito">Taller de capacitacion: "Tecnologias basicas para el desarrollo web"</p>
+    <p class="pepito">E-mail de contacto: <a href="mailto:juanjozanini@gmail.com">JuanJoZanini@gmail.com</a></p>
+</footer>
+    <script src="bootstrap/js/jquery.js"></script>
+   <script src="bootstrap/js/bootstrap.min.js"></script>
+  
+</body>
+</html>
