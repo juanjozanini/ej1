@@ -1,0 +1,59 @@
+<?DOCTYPE html>
+<html lang="es-es">
+<head>
+<meta charset="UTG-8">
+<title>Taller Desarrollo WEB UNSE</title>
+
+<!-- Tres formas de agregar estilos primero embebido en el head 
+<style>
+body{
+
+    background-color: red;
+}
+-->
+</style>
+<!-- El tercero creando archivo css (pasa por arriba el codigo embebido anteriormente) -->
+<link rel="stylesheet" href="estilo.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+</head>
+<body style="background-color:rgb(6, 6, 49)">
+    
+        <header >
+            <!-- El segundo es agregarla en la etiqueta directamente con style (pasa sobre la hoja de estilos-->
+                    <ul  style:"background-color: rgb(3, 3, 22)">
+                            <li><a href="index.html"  class="btn btn-default" >INICIO</a></li>
+                            <li><a href="contacto.html"  class="btn btn-default">CONTACTOS</a></li>
+                        </ul>
+        </header>
+
+        <div class="col-xs-12 col-sm-12 col-md-12">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 panel panel-default" style="background-color:rgb(237, 237, 250)">
+                <h1 class="panel-title panel panel-heading" style="font-size:30px">Informacion de Contacto</h1>
+                <br>
+                    <ul id="cont">
+                            <li><b>Direccion</b>
+                            <p style="margin-left:15px">Republica del Libano 2772, Manzana 7 Sector B, Deto 201, Segundo Piso</p></li>
+                            <li><b>Whatsapp</b>
+                            <p style="margin-left:15px">+5493855113066</p></li>
+                            <li><b>E-mail</b>
+                            <p style="margin-left:15px">juanjozanini@gmail.com</p></li>
+                    </ul>
+            </div>
+
+            <div id="map" class="col-xs-12 col-sm-12 col-md-12 panel panel-default" style="background-color:rgb(237, 237, 250)">
+                    <iframe class="col-xs-12 col-sm-12 col-md-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3528.8198756860515!2d-64.24244168534098!3d-27.81531478274735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b4e0a30185c8d%3A0x81bb3a4de6d0399a!2sRepublic+del+Libano+2798-2700%2C+Santiago+del+Estero!5e0!3m2!1ses-419!2sar!4v1509564815474" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+              
+            </div>
+
+        </div>
+        <footer class="col-xs-12" style=" background-color: rgb(3, 3, 22)">
+            <p class="pepito">Taller de capacitacion: "Tecnologias basicas para el desarrollo web"</p>
+            <p class="pepito">E-mail de contacto: <a href="mailto:juanjozanini@gmail.com">JuanJoZanini@gmail.com</a></p>
+        </footer>
+            <script src="bootstrap/js/jquery.js"></script>
+           <script src="bootstrap/js/bootstrap.min.js"></script>
+          
+        </body>
+        </html>

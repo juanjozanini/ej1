@@ -1,7 +1,7 @@
 
 body{
     margin:0px; 
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     font-family: Cambria;
   
 }
@@ -12,8 +12,13 @@ header>ul>li{
 
 }
 
+cont>ul>li{
+    font-variant:bolder; 
+}
 header{
-    background-color: white;
+    
+    background-color:rgb(3, 3, 22);
+    
 }
 
 
@@ -42,6 +47,10 @@ h1{
 p{
     color: rgb(4, 2, 43);
     margin-left: 30px;
+}
+#map{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .Lista1{
@@ -76,6 +85,7 @@ footer{
     border-inline-start: black;
     text-align: center;
     margin:0px;
+   
 }
 
 .pepito{
